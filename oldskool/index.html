@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Makeup App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Create a container element for the camera preview -->
+    <div id="camera-preview">
+      <!-- Add a video element to display the camera preview -->
+      <video id="camera"></video>
+    </div>
+
+    <!-- Create a container element for the makeup guide -->
+    <div id="makeup-guide">
+      <!-- Add a heading element to show the current step -->
+      <h2 id="step-heading">Step 1: Apply foundation</h2>
+      <!-- Add an image element to show an example of the finished makeup -->
+      <img id="example-image" src="example-1.jpg">
+      <!-- Add a paragraph element to provide instructions for the current step -->
+      <p id="step-instructions">Use a sponge or brush to apply foundation evenly over your face.</p>
+    </div>
+
+    <!-- Create a container element for the overlay -->
+    <div id="overlay">
+      <!-- Add an image element to show the overlay image -->
+      <img id="overlay-image" src="overlay-1.png">
+    </div>
+
+    <!-- Add buttons to advance to the next or previous step -->
+    <button id="next-button">Next</button>
+    <button id="previous-button">Previous</button>
+
+    <!-- Add the JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
